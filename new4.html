@@ -210,7 +210,7 @@
     <div class="B1">
         <button onclick="toggleJumpImage()"><b>간식 주기</b></button>
         <button onclick="openModal()"><b>말을 건다</b></button>
-        <button onclick="shakeImage()"><b>쓰다듬기</b></button> <!-- shakeImage 함수 호출 -->
+        <button onclick="shakeImage()"><b>쓰다듬기</b></button>
     </div>
 
     <div id="myModal" class="modal">
@@ -289,7 +289,7 @@
 
         function displayEntries() {
             const guestbookDisplay = document.getElementById("guestbookDisplay");
-            guestbookDisplay.innerHTML = guestbookEntries.map(entry => `<p>${entry}</p>`).join(""); // 방명록 내용 표시
+            guestbookDisplay.innerHTML = guestbookEntries.map(entry => `<p>${entry}</p>`).join("");
         }
 
         function shakeImage() {
