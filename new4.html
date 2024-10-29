@@ -294,9 +294,8 @@
 
         function shakeImage() {
             const image = document.getElementById("jumpingImage");
-            image.style.animation = "shake 0.5s ease"; // 흔들림 애니메이션 적용
+            image.style.animation = "shake 0.5s ease";
 
-            // 애니메이션이 끝나면 다시 초기화
             image.addEventListener("animationend", () => {
                 image.style.animation = "";
             }, { once: true });
